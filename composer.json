@@ -1,0 +1,16 @@
+{
+    "name": "object/system-logs",
+    "require": {
+        "sujayjaju/php-active-record": "dev-master"
+    },
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0" : {
+            "SystemLogs" : "src/"
+        }
+    }
+}

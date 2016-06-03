@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "cc5fd2580d7f777308f9a5b28d6bed05",
+    "content-hash": "bf327fa15c0fda586da97e5bd64f0c02",
+    "packages": [
+        {
+            "name": "sujayjaju/php-active-record",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sujayjaju/php-active-record.git",
+                "reference": "0a97672351e548241d950b4d189b7b2dd2ff8720"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sujayjaju/php-active-record/zipball/0a97672351e548241d950b4d189b7b2dd2ff8720",
+                "reference": "0a97672351e548241d950b4d189b7b2dd2ff8720",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ActiveRecord": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Stand Alone Active Record Library. CodeIgniter's ActiveRecord and Database Library from 3.0RC2, without the rest of CodeIgniter",
+            "time": "2015-12-09 12:58:43"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "sujayjaju/php-active-record": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
